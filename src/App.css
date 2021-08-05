@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.input {
+  width: 20%;
+  margin: 1rem;
+}
+.secondinput {
+  margin-top: 3rem;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
