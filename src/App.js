@@ -1,16 +1,18 @@
+import React from "react";
 import ProfilePhoto from "./components/ProfilePhoto/ProfilePhoto";
 import FullName from "./components/FullName/FullName";
 import Adresse from "./components/Adresse/Adresse";
+import profile from "./profile.jpg";
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <div className="photo">
-        <ProfilePhoto />
+        <ProfilePhoto profile={profile} />
       </div>
-      <FullName />
-      <Adresse />
+      <FullName FullName="Aquila Touati" />
+      <Adresse Adresse="akilatouati97@gmail.com" />
     </div>
   );
 }
